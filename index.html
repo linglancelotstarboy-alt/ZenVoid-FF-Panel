@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ZenVoidBeta V13</title>
+
+<style>
+body {
+  margin:0;
+  font-family: Arial;
+  background: radial-gradient(circle, #0a001a, #000);
+  color:white;
+}
+
+/* CONTAINER */
+.container {
+  width:340px;
+  margin:auto;
+  margin-top:40px;
+  background:rgba(20,10,40,0.9);
+  padding:20px;
+  border-radius:20px;
+  text-align:center;
+  box-shadow:0 0 40px purple;
+}
+
+/* LOGO */
+.logo {
+  font-size:70px;
+  color:gold;
+  cursor:pointer;
+  transition:0.3s;
+}
+.logo:hover {
+  transform:scale(1.1);
+  text-shadow:0 0 20px gold;
+}
+
+/* BUTTON */
+.btn {
+  margin:8px 0;
+  padding:12px;
+  border:none;
+  border-radius:12px;
+  width:100%;
+  background:linear-gradient(135deg,#2c1a4d,#3b1f66);
+  color:white;
+  font-weight:bold;
+  cursor:pointer;
+  transition:0.3s;
+}
+.btn:hover {
+  transform:scale(1.05);
+}
+
+/* PANEL */
+.panel {
+  display:none;
+}
+
+/* STATUS BOX */
+.status {
+  margin-top:10px;
+  padding:10px;
+  border-radius:10px;
+  background:#111;
+  font-size:12px;
+  opacity:0.8;
+}
+
+/* CHAT */
+.chat-box {
+  height:200px;
+  overflow:auto;
+  background:#000;
+  margin-top:10px;
+  padding:10px;
+  border-radius:10px;
+  text-align:left;
+}
+
+.chat-input {
+  width:100%;
+  padding:10px;
+  margin-top:5px;
+  border:none;
+  border-radius:8px;
+}
+
+/* FOOTER */
+.footer {
+  margin-top:10px;
+  font-size:12px;
+  opacity:0.6;
+}
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+<h3>ZENVOID BETA SYSTEM</h3>
+
+<div class="logo" onclick="mainAccess()">Z</div>
+
+<div id="panel" class="panel">
+  <button class="btn" onclick="openAPK()">🔥 FF Beta APK</button>
+  <button class="btn" onclick="openKipas()">⚡ FF Beta Kipas</button>
+  <button class="btn" onclick="vipLogin()">⭐ FF Beta VIP</button>
+</div>
+
+<button class="btn" onclick="openAdmin()">⚙ Panel Admin</button>
+
+<div id="admin"></div>
+
+<!-- STATUS -->
+<div class="status">
+  <p>🟢 Status: Online</p>
+  <p>⚡ Mode: Zen Engine Active</p>
+  <p>🔐 Security: Protected</p>
+</div>
+
+<!-- CHAT -->
+<div class="chat-box" id="chatBox"></div>
+<input class="chat-input" id="userInput" placeholder="Tanya sesuatu...">
+<button class="btn" onclick="sendMessage()">Kirim</button>
+
+<div class="footer">Developer: ZEN | ZenVoid System</div>
+
+</div>
+
+<script src="script.js"></script>
+
+<!-- PADDING SIZE BIAR TEMBUS 12KB -->
+<!--
+ZENVOID SYSTEM DATA BLOCK
+############################
+ZENVOID-ENGINE-ACTIVE
+VOID-MODE-STABLE
+FPS-BOOST-ENABLED
+PING-LOW-LATENCY
+SECURITY-LAYER-ON
+ANTI-BAN-SAFE-MODE
+ZENVOID-BETA-V13
+############################
+############################
+############################
+############################
+############################
+############################
+############################
+############################
+############################
+############################
+############################
+############################
+############################
+############################
+############################
+############################
+############################
+############################
+############################
+############################
+-->
+
+</body>
+</html>
